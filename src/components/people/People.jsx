@@ -29,7 +29,7 @@ const People = () => {
             <div className='ss_people_intro'>
               <div className='ss_people_inner'>
                       <img src={ Picb } alt='p'/>
-                    <h5>MR.Ghansyam</h5> 
+                    <h5>MR.sachin patidar</h5> 
                     <p>  co-founder of ss construction </p>
                </div>
             </div> 

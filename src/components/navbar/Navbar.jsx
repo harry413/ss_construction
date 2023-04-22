@@ -26,16 +26,21 @@ const Navbar = () => {
                     <p>sign in</p>
                     <button type='button'>sign up</button>
                 </div>
-                <div className='ss_navbar-smallscreen' onClick={() => setTogglemenu(true)}>
-                        < CgMenuGridO  className='ss_navbar-icon'/>
+                <div className='ss_navbar-smallscreen' >
+                        < CgMenuGridO  className='ss_navbar-icon' onClick={() => setTogglemenu(true)}/>
                     { togglemenu && 
-                                <div className='ss_navbar-smallscreen-over' onClick={() => setTogglemenu(false)}>
-                                    <IoMdClose className='ss_navbar-iconclose'/>
-                                    <Menu/>
+                                <div className='ss_navbar-smallscreen-over flex__center slide_bottom'  >
+                                    <IoMdClose className='ss_navbar-iconclose' onClick={() => setTogglemenu(false)}/>
+                                <div className='ss_navbar-smalllink'>      
+                                    <p><a href='#home'>Home</a></p>
+                                    <p><a href='#project'>projects</a></p>
+                                    <p><a href='#about'>About Us</a></p>
+                                    <p><a href='#idea'>ideas</a></p>
                                     <div className='ss__navbar-sign-small'>
                                         <p>sign in</p>
                                         <button type='button'>sign up</button>
                                     </div>
+                                </div>
                                 </div> 
                     }
                 </div>
