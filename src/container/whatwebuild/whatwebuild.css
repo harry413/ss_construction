@@ -1,0 +1,20 @@
+.ss_wwb{
+    display: flex;
+    justify-content: center;
+}
+.ss_wwb h2{
+    display: flex;
+    margin: 20px;
+    font-size: 40px;
+    font-weight: 600;
+    color: blanchedalmond;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width:985px){
+
+}
+@media screen and (max-width:630px){
+
+}

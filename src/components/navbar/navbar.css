@@ -1,0 +1,128 @@
+ .ss__navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0 3rem 0rem 3rem;
+    font-size:16px;
+    background-size: 180ch;
+    scroll-behavior: smooth;
+   background-color: #000000;
+}
+
+.ss__navbar-tag{
+    display: flex;
+    padding: 10px;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none; 
+}
+.ss__navbar-tag p{
+    color:none;
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: capitalize;
+    line-height: 25px;
+    margin: 0 1.5rem;
+}
+.ss__navbar-tag a{
+    text-decoration: none;
+     cursor: pointer;
+    font-size: 16px; 
+}
+.ss__navbar-tag a:hover{
+    color: rgb(115, 112, 117);
+}
+.ss__navbar-sign {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    
+}
+.ss__navbar-sign p {
+    padding: 5px;
+    font-size: 16px;
+    
+}
+.ss__navbar-sign p:hover{
+    color: rgb(115, 112, 117);
+}
+
+.ss__navbar-sign button{
+    margin: 7px;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+    color: #0b0000;
+    font-size: 16px;
+    background: linear-gradient(
+        to right,pink, rgb(205, 10, 69)
+        
+    );
+    font-weight: 500;
+    line-height: 25px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.ss__navbar img{
+    width: 80px;
+    overflow: none;
+    height: 70px;
+    overflow: none;
+    border-radius:100px ;
+    margin: 0 60px 0 0;
+    cursor: pointer;
+}
+.ss_navbar-smallscreen{
+    display: none;
+}
+@media screen and (max-width:985px) {
+    .ss__navbar-tag a{
+        display: none;
+    }
+    .ss_navbar-smallscreen{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        padding: 10px;
+        height: 3em;
+        width: 3em;
+}
+.ss_navbar-icon{
+    width: 3em;
+    height: 3em;
+}
+    .ss__navbar-sign-small{
+        display: none;
+    }
+    .ss_navbar-iconclose{
+        width: 4em;
+        height: 5em;
+        position: fixed;
+    }
+    .ss_navbar-smallscreen-over{
+        background-color: #4d4848;
+        display: flex;
+        flex-direction: column;
+    }
+    .ss__navbar-tag p{
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+        margin: 15px;
+    }
+}
+@media screen and (max-width:630px) {
+    .ss__navbar-tag a{
+        display: none;
+    }
+    .ss__navbar-sign{
+        display: none;
+    }
+    .ss__navbar-sign-small{
+        display: flex;
+        width: 2em;
+    }
+}

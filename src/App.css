@@ -1,38 +1,22 @@
-.App {
-  text-align: center;
+*{
+    font-family:'Manrope',sans-serif;
+    color: rgb(249, 252, 251);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1{
+    text-align: start;
+    padding: 0;
+    font-size: 18px;
+    scroll-behavior: smooth;
 }
+.main_bg{
+    background:-moz-radial-gradient(circle at 3% 25%,rgba(0,40,83,1) 0%,rgba(4,12,2,1)25%) ;
+    
+    background:-webkit-radial-gradient(circle at 3% 25%,rgba(0,40,83,1) 0%,rgba(4,12,2,1)25%) ;
+        
+    background:-moz-radial-gradient(circle at 3% 25%,rgba(0,40,83,1) 0%,rgba(4,12,2,1)25%) ;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+    background:-ms-radial-gradient(circle at 3% 25%,rgba(0,40,83,1) 0%,rgba(4,12,2,1)25%) ;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+    background:radial-gradient(circle at 3% 25%,rgba(0,40,83,1) 0%,rgba(4,12,2,1)25%) ;
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
